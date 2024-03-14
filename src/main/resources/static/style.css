@@ -12,8 +12,35 @@ header {
 }
 
 li,
-a,
-button {
+a{
+    font-family: "Montsserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#btnRegistro{
+
+    background-color: #B43052;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montsserat', sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    margin-left: auto;
+    
+    
     font-family: "Montsserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -38,6 +65,14 @@ button {
     color: #B43052;
 }
 
+#btnRegistro:hover {
+    color: #B43052;
+    background-color: #F4A4B5;
+    font-size: 23px;
+}
+
+/*FIN DEL HEADER*/
+
 #hero{
     display: flex;
     align-items: center;
@@ -54,10 +89,63 @@ button {
     background-position: center center;
 }
 
-h1{
-    font-size: 50px;
+#btnQuieneSomos{
+    background-color: transparent;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montsserat', sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 1px solid white;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    margin-left: auto;
+    
+    
+    font-family: "Montsserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#btnQuieneSomos:hover {
+    color: #B43052;
+    border: 1px solid #B43052;
+    font-size: 20px;
+}
+
+#hero h1{
+    font-size: 60px;
 }
 
 #hero p{
-    font-size: 20px;
+    font-size: 25px;
 }
+
+/*FIN DEL HERO*/
+
+/*INICIO DE SECCIONES ACERCA DE NOSOTROS*/
+
+#QuienesSomos{
+    background-color:#00b3b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    color: white;
+}
+
+#QuienesSomos h1{
+    font-size: 45px;
+}
+
+
