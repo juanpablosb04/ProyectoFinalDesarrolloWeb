@@ -7,7 +7,7 @@ header {
     border: 2px solid;
     border-color: white;
     border-radius: 10px 0px 10px 0px;
-    box-shadow: #FDB927;
+    box-shadow: 0 #FDB927;
 
 }
 
@@ -122,6 +122,7 @@ a{
     font-size: 20px;
 }
 
+
 #hero h1{
     font-size: 60px;
 }
@@ -136,17 +137,52 @@ a{
 
 #QuienesSomos{
     background-color:#00b3b9;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    display: flex;
     height: 70vh;
     color: white;
 }
 
 #QuienesSomos h1{
-    font-size: 45px;
+    font-size: 30px;
+    text-align: center;
 }
+#QuienesSomos h2 {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#QuienesSomos p{
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+}
+    
+#QuienesSomos h3 {
+    font-size: 25px;
+    text-align: left;
+    justify-content: center;
+}
+
+#Galeria{
+    background-color:#ffffff;
+    display: flex;
+    height: 70vh;
+    color: black;
+}
+#Galeria h1{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+#Galeria h2{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+ 
+
 
 
 
