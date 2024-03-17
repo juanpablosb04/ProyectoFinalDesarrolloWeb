@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #F4A4B5;
+    background-color: #F28585;
     border: 2px solid;
     border-color: white;
     border-radius: 10px 0px 10px 0px;
@@ -22,7 +22,7 @@ a{
 
 #btnRegistro{
 
-    background-color: #B43052;
+    background-color: #F28585;
     border-radius: 100px;
     color: white;
     cursor: pointer;
@@ -62,12 +62,12 @@ a{
 }
 
 .navlinks li a:hover {
-    color: #B43052;
+    color: #F2C6C2;
 }
 
 #btnRegistro:hover {
-    color: #B43052;
-    background-color: #F4A4B5;
+    color: #F2C6C2;
+    background-color: #F28585;
     font-size: 23px;
 }
 
@@ -147,5 +147,14 @@ a{
 #QuienesSomos h1{
     font-size: 45px;
 }
+
+
+
+
+
+
+
+
+
 
 
