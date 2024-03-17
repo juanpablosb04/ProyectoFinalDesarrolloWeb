@@ -36,7 +36,7 @@ a{
     font-size: 16px;
     user-select: none;
     -webkit-user-select: none;
-    touch-action: manipulation;
+/*    touch-action: manipulation;*/
     transition: all 0.3s ease 0s;
     margin-left: auto;
     
