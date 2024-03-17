@@ -36,11 +36,11 @@ a{
     font-size: 16px;
     user-select: none;
     -webkit-user-select: none;
-/*    touch-action: manipulation;*/
+    /*    touch-action: manipulation;*/
     transition: all 0.3s ease 0s;
     margin-left: auto;
-    
-    
+
+
     font-family: "Montsserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -74,21 +74,107 @@ a{
 /*FIN DEL HEADER*/
 #compras{
     background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url("fondoComprar.jpg");
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)), url("/Imagenes/fondoComprar.jpg");
+    background-size: cover;
 }
-.container {
+.Productos {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .text-container div {
-    margin-bottom: 10px; /* Espacio entre los elementos de texto */
-  }
-  
-  .imagenProducto{
-      margin-top: 30px;
-      margin-bottom: 30px;
-      margin-right: 10px;
-  }
+}
+
+.Productos h1{
+    font-size: 24px;
+    color: white;
+}
+
+.Productos h2{
+    font-size: 19px;
+    color: #00B3B9;
+}
+
+.Productos h3{
+    font-size: 18px;
+    color: white;
+}
+
+.Productos a{
+    font-size: 25px;
+    color: #00B3B9;
+    margin: 5px;
+}
+
+.Productos p{
+    width: 300px;
+    font-size: 14px;
+    color: white;
+}
+
+
+.text-Productos div {
+    margin-bottom: 15px; /* Espacio entre los elementos de texto */
+}
+
+.imagenProducto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.btn-Productos{
+    margin-left: 20px;
+}
+
+#btnMenos{
+    margin-left: 150px;
+}
+
+.btnCantidad{
+    background-color: transparent;
+    border: 0px solid white;
+    color: white; /* Cambia el color del texto según tu preferencia */
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.btnCantidad:hover {
+    background-color: rgba(255,255,255, 0.1);
+    color: #00B3B9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 30px 0;
+}
+
+.bottom-bar {
+  background-color: #F28585;
+  padding: 10px 0;
+  text-align: center;
+}
