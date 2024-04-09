@@ -166,9 +166,10 @@ a{
 
 #Galeria{
     background-color:#ffffff;
-    justify-content: center;
     display: flex;
-    height: 200vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 160vh;
     color: black;
 }
 #Galeria h1{
@@ -183,7 +184,6 @@ a{
 }
 .foto {
     width: 100%; 
-    margin: 50px;
     border-radius: 6px;
     overflow: hidden;
     background: #fff;
