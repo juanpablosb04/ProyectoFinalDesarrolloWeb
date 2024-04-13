@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #F28585;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: #FDB927;
+
+}
+
+li,
+a{
+    font-family: "Montsserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #F2C6C2;
+}
+
+#login {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)), url("/Imagenes/fondoLogin.jpg");
+    background-size: cover;
+}
+
+.contenedor {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contenedor h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contenedor input[type="text"],
+.contenedor input[type="password"],
+.contenedor input[type="submit"],
+.contenedor input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contenedor input[type="submit"],
+.contenedor input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.contenedor input[type="submit"]:hover,
+.contenedor input[type="button"]:hover {
+    background-color: #0056b3;
+}
