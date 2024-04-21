@@ -111,7 +111,7 @@ a{
     
     font-family: "Montsserrat", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
 }
@@ -124,11 +124,11 @@ a{
 
 
 #hero h1{
-    font-size: 60px;
+    font-size: 90px;
 }
 
 #hero p{
-    font-size: 25px;
+    font-size: 50px;
 }
 
 /*FIN DEL HERO*/
@@ -139,29 +139,31 @@ a{
     background-color:#00b3b9;
     justify-content: center;
     display: flex;
-    height: 70vh;
+    height: 960px;
     color: white;
 }
 
 #QuienesSomos h1{
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
 }
 #QuienesSomos h2 {
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
     justify-content: center;
 }
 #QuienesSomos p{
-    font-size: 20px;
+    font-size: 30px;
     text-align: left;
     justify-content: center;
+    padding-left: 15px
 }
     
 #QuienesSomos h3 {
-    font-size: 25px;
+    font-size: 40px;
     text-align: left;
     justify-content: center;
+    padding-left: 15px
 }
 
 #Galeria{
@@ -169,16 +171,16 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 160vh;
+    height: 174vh;
     color: black;
 }
 #Galeria h1{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     
 }
 #Galeria h2{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     
 }
@@ -205,6 +207,7 @@ a{
 .foto img{
     width: 100%;
     height: 210px;
+    
 }
 .foto.contenido{
     text-align: center;
@@ -214,78 +217,70 @@ a{
     background-color:#545454;
     justify-content: center;
     display: flex;
-    height: 70vh;
-    color: white;
+    height: auto;
+    display: block;
 }
 
 #Trabajo h1{
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
+    color:#fff;
     
 }
 #Trabajo h2{
-    font-size: 15px;
+    font-size: 40px;
     text-align: center;
-}
- 
-.Creacion {
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    width: 80%;
-    height: 25px;
-}
-.Creacion:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translateY(-3%);
+    color: white;
 }
 
-.incluir div{
-    background: #fff;
+#Trabajo h3{
+    font-size: 40px;
+    text-align: center;
     color: black;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    cursor: default;
-    transition: all 400ms ease;
-    height: 200px;
 }
+
+#Trabajo p{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+.contenedorTrabajo {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columnas */
+  }
+  .item {
+    display: flex; /* Para alinear la imagen y el texto en la misma fila */
+    margin-bottom: 20px; /* Espacio entre cada par de imagen y texto */
+  }
+  
+  
+  .imagenTrabajo {
+    padding-left: 20px;
+    max-width: 50%;
+    height: auto;
+  }
+  .texto {
+    background-color: white;
+    padding: 20px;
+    margin-left: 20px;
+    width: 1430px;
+  }
+
+
+
+
+
 #Entregas {
     background-color:#00b3b9;
     justify-content: center;
     display: flex;
-    height: 90vh;
+    height: auto;
     color: white;
 }
 #Entregas h1{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-}
-#redes{
-    background-color:#ffffff;
-    display: flex;
-    height: 80vh; 
-    justify-content: normal;
-}
-#redes h1{
-    font-size: 30px;
-    text-align: center;
-    color: black; 
-    justify-content: normal;
-}
-#redes.h2{
-    font-size: 15px;
-    text-align: center;   
-}
-.telefono {
-    width: 200px; 
-    height: 150px;
-}
-.instagram{
-    width: 200px; 
-    height: 150px;
-}
-.facebook{
-    width: 200px; 
-    height: 150px; 
 }
 
 
