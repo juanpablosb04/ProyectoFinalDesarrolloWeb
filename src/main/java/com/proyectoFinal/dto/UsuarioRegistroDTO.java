@@ -4,7 +4,6 @@
  */
 package com.proyectoFinal.dto;
 
-
 public class UsuarioRegistroDTO {
 
 	private Long id;
