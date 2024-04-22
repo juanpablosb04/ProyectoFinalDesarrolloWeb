@@ -42,8 +42,8 @@ a{
     touch-action: manipulation;
     transition: all 0.3s ease 0s;
     margin-left: auto;
-    
-    
+
+
     font-family: "Montsserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -85,8 +85,8 @@ a{
     height: 90vh;
     color: white;
     background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url("/Imagenes/fondoInicio.jpg");
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)), url("/Imagenes/fondoInicio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -110,8 +110,8 @@ a{
     touch-action: manipulation;
     transition: all 0.3s ease 0s;
     margin-left: auto;
-    
-    
+
+
     font-family: "Montsserrat", sans-serif;
     font-weight: 500;
     font-size: 30px;
@@ -161,7 +161,7 @@ a{
     justify-content: center;
     padding-left: 15px
 }
-    
+
 #QuienesSomos h3 {
     font-size: 40px;
     text-align: left;
@@ -180,15 +180,15 @@ a{
 #Galeria h1{
     font-size: 40px;
     text-align: center;
-    
+
 }
 #Galeria h2{
     font-size: 25px;
     text-align: center;
-    
+
 }
 .foto {
-    width: 100%; 
+    width: 100%;
     border-radius: 6px;
     overflow: hidden;
     background: #fff;
@@ -200,7 +200,7 @@ a{
     width: 100%;
     display: flow;
     max-width: 800px;
-    
+
 }
 .foto:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
@@ -210,7 +210,7 @@ a{
 .foto img{
     width: 100%;
     height: 210px;
-    
+
 }
 .foto.contenido{
     text-align: center;
@@ -228,7 +228,7 @@ a{
     font-size: 45px;
     text-align: center;
     color:#fff;
-    
+
 }
 #Trabajo h2{
     font-size: 40px;
@@ -251,24 +251,24 @@ a{
 .contenedorTrabajo {
     display: flex;
     flex-direction: column; /* Alinea los elementos en columnas */
-  }
-  .item {
+}
+.item {
     display: flex; /* Para alinear la imagen y el texto en la misma fila */
     margin-bottom: 20px; /* Espacio entre cada par de imagen y texto */
-  }
-  
-  
-  .imagenTrabajo {
+}
+
+
+.imagenTrabajo {
     padding-left: 20px;
     max-width: 50%;
     height: auto;
-  }
-  .texto {
+}
+.texto {
     background-color: white;
     padding: 20px;
     margin-left: 20px;
     width: 1430px;
-  }
+}
 
 
 
@@ -287,13 +287,13 @@ a{
 }
 
 footer {
-  padding: 30px 0;
+    padding: 30px 0;
 }
 
 .bottom-bar {
-  background-color: #F28585;
-  padding: 10px 0;
-  text-align: center;
+    background-color: #F28585;
+    padding: 10px 0;
+    text-align: center;
 }
 
 

@@ -10,6 +10,7 @@ import com.proyectoFinal.modelo.Usuario;
 import com.proyectoFinal.repositorio.UsuarioRepositorio;
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -52,7 +53,10 @@ public class UsuarioServicioImpl implements UsuarioServicio {
         return roles.stream().map(role -> new SimpleGrantedAuthority(role.getNombre())).collect(Collectors.toList());
     }
     
-    
+    @Override
+	public List<Usuario> listarUsuarios() {
+		return usuarioRepositorio.findAll();
+	}
 
     
 

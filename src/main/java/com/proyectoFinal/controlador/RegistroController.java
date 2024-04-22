@@ -7,8 +7,10 @@ package com.proyectoFinal.controlador;
 import ch.qos.logback.core.model.Model;
 import com.proyectoFinal.modelo.Usuario;
 import com.proyectoFinal.repositorio.UsuarioRepositorio;
+import com.proyectoFinal.servicio.UsuarioServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
@@ -16,14 +18,16 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class RegistroController {
 
     @Autowired
-    private UsuarioRepositorio usuarioRepository; // Debes crear esta interfaz
+	private UsuarioServicio servicio;
 
-    @PostMapping("/registro")
-    public String registrarUsuario(@ModelAttribute Usuario usuario, Model model) {
+	@GetMapping("/login")
+	public String iniciarSesion() {
+		return "login";
+	}
 
-        usuarioRepository.save(usuario);
-        
-        // Redirigir a la página de inicio de sesión con un parámetro de éxito
-        return "redirect:/login?exito";
-    }
+	@GetMapping("/")
+	public String verPaginaDeInicio(org.springframework.ui.Model modelo) {
+		modelo.addAttribute("usuarios", servicio.listarUsuarios());
+		return "index";
+	}
 }
