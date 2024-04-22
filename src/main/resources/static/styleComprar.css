@@ -7,7 +7,7 @@ header {
     border: 2px solid;
     border-color: white;
     border-radius: 10px 0px 10px 0px;
-    box-shadow: #FDB927;
+    box-shadow: 0 #FDB927;
 
 }
 
@@ -15,7 +15,7 @@ li,
 a{
     font-family: "Montsserrat", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
 }
@@ -36,11 +36,11 @@ a{
     font-size: 16px;
     user-select: none;
     -webkit-user-select: none;
-    /*    touch-action: manipulation;*/
+    touch-action: manipulation;
     transition: all 0.3s ease 0s;
     margin-left: auto;
-
-
+    
+    
     font-family: "Montsserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -73,10 +73,14 @@ a{
 
 /*FIN DEL HEADER*/
 #compras{
-    background-image: linear-gradient(0deg,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)), url("/Imagenes/fondoComprar.jpg");
+    background: linear-gradient(rgba(0 0 0 / .8)
+        ,rgba(0 0 0 / .3))
+        ,url("/Imagenes/fondoComprar.jpg");
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
 }
 .Productos {
     display: flex;
@@ -85,29 +89,29 @@ a{
 }
 
 .Productos h1{
-    font-size: 24px;
+    font-size: 35px;
     color: white;
 }
 
 .Productos h2{
-    font-size: 19px;
+    font-size: 25px;
     color: #00B3B9;
 }
 
 .Productos h3{
-    font-size: 18px;
+    font-size: 23px;
     color: white;
 }
 
 .Productos a{
-    font-size: 25px;
+    font-size: 30px;
     color: #00B3B9;
     margin: 5px;
 }
 
 .Productos p{
-    width: 300px;
-    font-size: 14px;
+    width: 450px;
+    font-size: 19px;
     color: white;
 }
 
@@ -120,6 +124,10 @@ a{
     margin-top: 30px;
     margin-bottom: 30px;
     margin-right: 20px;
+    border-radius: 10px;
+    border: 5px solid white; 
+    border-radius: 5px;
+    
 }
 
 .btn-Productos{
